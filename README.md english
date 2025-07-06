@@ -1,0 +1,14 @@
+#  JavaScript Calculator
+
+This is my **first calculator project**, written in **HTML** and **JavaScript**.  
+It asks for two numbers and an operation (`+`, `-`, `*`, `/`) and shows the result in the browser console.
+
+##  How to Use
+
+1. Open `calculator.html` in your browser
+2. Follow the prompts (input using `prompt`)
+3. Open the browser console (`F12` → "Console" tab) to see the result
+
+##  Author
+
+Created by a beginner JavaScript developer learning to build cool stuff 💻
