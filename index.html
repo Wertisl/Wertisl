@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator Wertisl</title>
+</head>
+<body>
+  <script>
+    function калькулятор() {
+      let a = Number(prompt("Введите первое число:"));
+      let операция = prompt("Введите операцию (+, -, *, /):");
+      let b = Number(prompt("Введите второе число:"));
+
+      if (операция == "+") {
+        console.log("Результат: " + (a + b));
+      } else if (операция == "-") {
+        console.log("Результат: " + (a - b));
+      } else if (операция == "*") {
+        console.log("Результат: " + (a * b));
+      } else if (операция == "/") {
+        if (b == 0) {
+          console.log("На ноль делить нельзя!");
+        } else {
+          console.log("Результат: " + (a / b));
+        }
+      } else {
+        console.log("Неизвестная операция!");
+      }
+    }
+
+    калькулятор();
+  </script>
+</body>
+</html>
